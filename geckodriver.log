@@ -1,0 +1,40 @@
+1678487395269	geckodriver	INFO	Listening on 127.0.0.1:62640
+1678487398319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62641" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tyler\\AppData\\Local\\Temp\\rust_mozprofilePcpy3L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678487398883	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678487398892	Marionette	INFO	Listening on port 62661
+WebDriver BiDi listening on ws://127.0.0.1:62641
+Read port: 62661
+1678487399158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tyler\\AppData\\Local\\Temp\\rust_mozprofilePcpy3L\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62641/devtools/browser/fad4c200-6d81-44f8-9831-295fe8c99dbc
+JavaScript warning: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4740344337&moatClientLevel2=2978331786&moatClientLevel3=5910720385&moatClientLevel4=138380085578&moatClientSlicer1=21782482296&moatClientSlicer2=21831469332&zMoatPS=exclusions&zMoatSW=&zMoatAdUnitPath=/21783347309/espn.com/fantasy/football/playerLeaders&zMoatMData=&zMoatSZ=1x2&zMoatMGV=&zMoatMSafety=&zMoatMMV=&zMoatMIVR=&refresh=1, line 241: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://a.espncdn.com/qa/scripts/moat/yield.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 1176 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678487429341	Marionette	INFO	Stopped listening on port 62661
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678487443657	geckodriver	INFO	Listening on 127.0.0.1:50856
+1678487446699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tyler\\AppData\\Local\\Temp\\rust_mozprofileA6EbYd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678487447093	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678487447099	Marionette	INFO	Listening on port 50866
+Read port: 50866
+WebDriver BiDi listening on ws://127.0.0.1:50857
+1678487447217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tyler\\AppData\\Local\\Temp\\rust_mozprofileA6EbYd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50857/devtools/browser/27db1bec-e727-4deb-bffd-5cdea5aa9ce9
+JavaScript warning: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4786514371&moatClientLevel2=2740599056&moatClientLevel3=5508923261&moatClientLevel4=138327224509&moatClientSlicer1=21782482296&moatClientSlicer2=21831469332&zMoatPS=exclusions&zMoatSW=&zMoatAdUnitPath=/21783347309/espn.com/fantasy/football/playerLeaders&zMoatMData=&zMoatSZ=1x2&zMoatMGV=&zMoatMSafety=&zMoatMMV=&zMoatMIVR=&refresh=1, line 241: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://a.espncdn.com/qa/scripts/moat/yield.js, line 217: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 5000 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 1350 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678489992474	Marionette	INFO	Stopped listening on port 50866
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
