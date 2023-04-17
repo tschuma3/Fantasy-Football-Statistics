@@ -13,23 +13,27 @@ from sklearn.impute import SimpleImputer
 
 #Importing the dataset
 dataset = pd.read_csv(r'Fantasy Football Dataset - Sheet1.csv')
-X = dataset.iloc[:, :].values
-y = dataset.iloc[:, -1].values
+X = dataset.iloc[:, 2:].values
+y = dataset.iloc[:, 2].values
 print(X)
 print(y)
 
 #Label Encoding
-le = LabelEncoder()
-X[:, 1] = le.fit_transform(X[:, 1])
-X[:, 2] = le.fit_transform(X[:, 2])
-X[:, 3] = le.fit_transform(X[:, 3])
+#le = LabelEncoder()
+#X[:, 0] = le.fit_transform(X[:, 0])
+#X[:, 2] = le.fit_transform(X[:, 2])
+#X[:, 3] = le.fit_transform(X[:, 3])
 
 print(X)
 print(y)
 
 #One Hot Encoding
-ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [1])], remainder='passthrough')
+ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [0])], remainder='passthrough')
 X = ct.fit_transform(X)
+
+# scale the data
+sc = StandardScaler()
+X = sc.fit_transform(X)
 
 print(X)
 print(y)
@@ -38,7 +42,7 @@ print(y)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 #Feature Scaling
-sc = StandardScaler(with_mean=False)
+#sc = StandardScaler(with_mean=False)
 X_train = sc.fit_transform(X_train)
 X_test = sc.fit_transform(X_test)
 
